@@ -3,7 +3,7 @@ import Timer from "./components/Timer";
 
 const App = () => {
   const timers = [];
-  for (let i = 1; i < 1800; i++) {
+  for (let i = 1; i < 10000; i++) {
     timers.push(<Timer time={i} key={i} />);
   }
 
