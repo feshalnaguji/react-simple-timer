@@ -1,0 +1,33 @@
+.timer {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.1rem;
+}
+
+.timer-label {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+
+.timer-button {
+  display: block;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+  margin: 0 auto;
+}
+
+.timer-label:hover {
+  transform: scale(1.1);
+}
+
+.timer-button:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+.timer-button:active {
+  transform: translateY(-1px) scale(1.1);
+}
